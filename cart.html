@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(52, 69, 75);
+            width: 70%;
+            margin-left: 200px;
+            margin-right: 200px;
+            color: red;
+        }
+
+        /* Start animation  */
+        h2 {
+            position: relative;
+            display: inline-block;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        h2::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            width: 0;
+            height: 2px;
+            background-color: red;
+            transition: 1s ease-in-out;
+        }
+
+        h2:hover::after {
+            width: 100%;
+        }
+
+        .frow {
+            display: flex;
+            justify-content: center;
+        }
+
+        .cart1 {
+            border: 1px solid black;
+            width: 30%;
+            margin-left: 30px;
+            margin-right: 30px;
+            text-align: justify;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: black;
+            color: white;
+        }
+        
+        .box input{
+            padding-left: 20px;
+            padding-right: 100px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-top: 10px;
+            border: none;
+            background-color: rgb(69, 63, 63);
+        }
+
+        .box input::placeholder{
+            color: black;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="skill">
+        <h2>Skill-Set</h2>
+
+        <div class="frow">
+            <!-- Cart  -->
+            <div class="cart1">
+                <h4>Git version control</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta placeat, unde delectus odio voluptas
+                    error ipsum. Voluptatem animi quia voluptas perspiciatis incidunt ipsa ex necessitatibus ad dicta,
+                    ratione, cupiditate soluta.</p>
+            </div>
+
+            <div class="cart1">
+                <h4>Git version control</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta placeat, unde delectus odio voluptas
+                    error ipsum. Voluptatem animi quia voluptas perspiciatis incidunt ipsa ex necessitatibus ad dicta,
+                    ratione, cupiditate soluta.</p>
+            </div>
+
+            <div class="cart1">
+                <h4>Git version control</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta placeat, unde delectus odio voluptas
+                    error ipsum. Voluptatem animi quia voluptas perspiciatis incidunt ipsa ex necessitatibus ad dicta,
+                    ratione, cupiditate soluta.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="form">
+        <h2>Connect with me </h2>
+        <div class="box">
+            <div class="box">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="box">
+                <input type="text" placeholder="Message">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
