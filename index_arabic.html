@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>MantiBay</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+
+<body class="index-page">
+
+  <header id="header" class="d-flex align-items-center header sticky-top">
+    <div class="container d-flex align-items-center justify-content-between position-relative">
+
+      <a href="index.html" class="d-flex align-items-center logo me-auto me-xl-0">
+        <h1 class="fw-bold sitename">Manti Bay</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#" class="active">الرئيسية<br></a></li>
+<li><a href="#menu">القائمة</a></li>
+<li><a href="#about">عنّا</a></li>
+<li><a href="#gallery">معرض الصور</a></li>
+<li><a href="#contact">اتصل بنا</a></li>
+
+          <li>
+            <select class="form-select" onchange="window.location.href=this.value;">
+              <a href="index.html">
+                <option value="index.html">EN</option>
+              </a>
+              <a href="index_ru.html">
+                <option value="index_ru.html">Россия</option>
+              </a>
+              <a href="index_ch.html">
+                <option value="index_ch.html">中文</option>
+              </a>
+              <a href="index_arabic.html">
+                <option value="index_arabic.html" selected>العربية</option>
+              </a>
+            </select>
+
+          </li>
+        </ul>
+        <i class="d-xl-none bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container">
+        <div class="row justify-content-center justify-content-md-between gy-4">
+          <div class="col-lg-7 d-flex flex-column order-2 order-lg justify-content-center">
+            <h1 data-aos="fade-up" class="ms-md-5">أشهى وأفضل طعام مغذي لك</h1>
+            <div class="d-flex mt-3" data-aos="fade-up" data-aos-delay="200">
+              <a href="mtbay_vd.mp4" class="d-flex btn-watch-video align-items-center glightbox ms-md-5"><i
+                  class="bi bi-play-circle"></i><span>شاهد الفيديو</span></a>
+            </div>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+            <img src="assets/img/guyrubeef.png" class="animated img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <!-- /Hero Section -->
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <p><span class="description-title">قائمتنا</span></p>
+      </div><!-- End Section Title -->
+    
+      <div class="container">
+    
+        <ul class="d-flex nav nav-tabs justify-content-center" data-aos="fade-up" data-aos-delay="100">
+    
+          <li class="nav-item">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
+              <h4>الأطباق الرئيسية</h4>
+            </a>
+          </li>
+    
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch">
+              <h4>السلطة</h4>
+            </a>
+          </li>
+    
+        </ul>
+    
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+    
+          <div class="active fade show tab-pane" id="menu-starters">
+    
+            <div class="row gy-5">
+    
+              <div class="col-lg-3 menu-item">
+                <a href="assets/img/Beef.png" class="glightbox" data-title="Manti لحم البقر" data-description="75 بات"><img
+                    src="assets/img/Beef.png" class="img-fluid menu-img" alt=""></a>
+                <h4>مانتي لحم البقر</h4>
+                <p class="ingredients">
+                  لحم بقر، بصل
+                </p>
+                <p class="price">
+                  75 بات
+                </p>
+              </div><!-- Menu Item -->
+    
+              <div class="col-lg-3 menu-item">
+                <a href="assets/img/Chicken.png" class="glightbox" data-title="Manti دجاج"
+                  data-description="65 بات"><img src="assets/img/Chicken.png" class="img-fluid menu-img" alt=""></a>
+                <h4>مانتي دجاج</h4>
+                <p class="ingredients">
+                  دجاج، بصل
+                </p>
+                <p class="price">
+                  65 بات
+                </p>
+              </div><!-- Menu Item -->
+    
+              <div class="col-lg-3 menu-item">
+                <a href="assets/img/Spinach.png" class="glightbox" data-title="Manti سبانخ"
+                  data-description="60 بات"><img src="assets/img/Spinach.png" class="img-fluid menu-img" alt=""></a>
+                <h4>مانتي سبانخ</h4>
+                <p class="ingredients">
+                  سبانخ، بصل، بطاطا
+                </p>
+                <p class="price">
+                  60 بات
+                </p>
+              </div><!-- Menu Item -->
+    
+              <div class="col-lg-3 menu-item">
+                <a href="assets/img/Pumpkin.png" class="glightbox" data-title="Manti قرع"
+                  data-description="60 بات"><img src="assets/img/Pumpkin.png" class="img-fluid menu-img" alt=""></a>
+                <h4>مانتي قرع</h4>
+                <p class="ingredients">
+                  قرع، بصل
+                </p>
+                <p class="price">
+                  60 بات
+                </p>
+              </div><!-- Menu Item -->
+    
+              <div class="col-lg-3 menu-item">
+                <a href="assets/img/guyrubeef.png" class="glightbox" data-title="غويرو لاجمان لحم البقر"
+                  data-description="280 بات"><img src="assets/img/guyrubeef.png" class="img-fluid menu-img1 mt-4" style="width: 230px; height: 180px;" alt=""></a>
+                <h4 class="mt-5">غويرو لاجمان لحم البقر</h4>
+                <p class="ingredients">
+                  نودلز يدوية، خضار مقلية، لحم بقر، مجموعة من التوابل
+                </p>
+                <p class="price">
+                  280 بات
+                </p>
+              </div><!-- Menu Item -->
+    
+              <div class="col-lg-3 menu-item">
+                <a href="assets/img/guyrubeef.png" class="glightbox" data-title="غويرو لاجمان دجاج"
+                  data-description="230 بات"><img src="assets/img/guyrubeef.png" class="img-fluid menu-img1 mt-4" style="width: 230px; height: 180px;" alt=""></a>
+                <h4 class="mt-5">غويرو لاجمان دجاج</h4>
+                <p class="ingredients">
+                  نودلز يدوية، خضار مقلية، دجاج، مجموعة من التوابل
+                </p>
+                <p class="price">
+                  230 بات
+                </p>
+              </div><!-- Menu Item -->
+    
+              <div class="col-lg-3 menu-item">
+                <a href="assets/img/Tsobeef.png" class="glightbox" data-title="تسوميان لاجمان لحم البقر"
+                  data-description="280 بات"><img src="assets/img/Tsobeef.png" class="img-fluid menu-img2" alt=""></a>
+                <h4 class="mt-4 pt-2">تسوميان لاجمان لحم البقر</h4>
+                <p class="ingredients">
+                  نودلز يدوية، خضار مقلية، لحم بقر، مجموعة من التوابل
+                </p>
+                <p class="price">
+                  280 بات
+                </p>
+              </div><!-- Menu Item -->
+    
+              <div class="col-lg-3 menu-item">
+                <a href="assets/img/Tsobeef.png" class="glightbox" data-title="تسوميان لاجمان دجاج"
+                  data-description="230 بات"><img src="assets/img/Tsobeef.png" class="img-fluid menu-img2" alt=""></a>
+                <h4 class="mt-4 pt-2">تسوميان لاجمان دجاج</h4>
+                <p class="ingredients">
+                  نودلز يدوية، خضار مقلية، دجاج، مجموعة من التوابل
+                </p>
+                <p class="price">
+                  230 بات
+                </p>
+              </div><!-- Menu Item -->
+    
+            </div>
+          </div>
+    
+    
+    
+          <div class="fade tab-pane" id="menu-lunch">
+    
+            <div class="text-center tab-header">
+              <div class="row">
+    
+                <div class="offset-lg-2 col-lg-4 menu-item">
+                  <a href="assets/img/ACCSL-removebg-preview.png" class="glightbox mt-5" data-title="Achichuk"
+                    data-description="150 بات"><img src="assets/img/ACCSL-removebg-preview.png"
+                      class="img-fluid menu-img mt-3" style="width: 350px;" alt=""></a>
+                  <h4>Achichuk</h4>
+                  <p class="ingredients">
+                    طماطم طازجة، بصل، ريحان عطرية
+                  </p>
+                  <p class="price">
+                    150 بات
+                  </p>
+                </div><!-- Menu Item -->
+    
+                <div class="col-lg-4 menu-item">
+                  <a href="assets/img/SpringSL.png" class="glightbox mt-3" data-title="Achichuk"
+                    data-description="150 بات"><img src="assets/img/SpringSL.png"
+                      class="img-fluid menu-img" style="width: 630px;" alt=""></a>
+                  <h4>الربيع</h4>
+                  <p class="ingredients">
+                    زبادي، خضار طازجة، فجل
+                  </p>
+                  <p class="price">
+                    150 بات
+                  </p>
+                </div><!-- Menu Item -->
+    
+              </div>
+            </div><!-- End Lunch Menu Content -->
+    
+    
+          </div>
+    
+        </div>
+    
+    </section>
+    <!-- /Menu Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <p><span class="description-title">معلومات عنا</span></p>
+      </div>
+    
+      <div class="container">
+    
+        <div class="d-flex row align-items-center">
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/mantibay2.jpeg" class="rounded-3 w-100 img-fluid" alt="" style="height: 650px;">
+          </div>
+          <div class="col-lg-5 mt-4" data-aos="fade-up" data-aos-delay="250">
+            <div class="content ps-0 ps-lg-5">
+              <ul class="fs-5">
+                <li> <span>مانتي باي هو وجهة طهي حيوية في جزيرة فوكيت، bringing authentic Central Asian flavors to the heart of Thailand.</span></li><br>
+                <li> <span>تخصصنا هو المانتي، وهي زلابية تقليدية مطهوة على البخار محشوة بمكونات لذيذة مثل اللحم البقري والدجاج والقرع والسبانخ، مصنوعة من أفضل المكونات لتجربة طعم لا تُنسى.</span></li><br>
+                <li> <span>مانتي باي يدعوك لتذوق دفء الضيافة الآسيوية الوسطى في جو مريح ودافئ.</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    <!-- /About Section -->
+
+
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <p><span class="description-title">معرضنا</span></p>
+      </div>
+    
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+    
+        <div class="init-swiper swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "centeredSlides": true,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 0
+                },
+                "768": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                },
+                "1200": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="align-items-center swiper-wrapper">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/mantibay1.jpeg"><img src="assets/img/mantibay1.jpeg" class="img-fluid" alt=""></a>
+            </div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/mantibay2.jpeg"><img src="assets/img/mantibay2.jpeg" class="img-fluid" alt=""></a>
+            </div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/mantibay5.jpeg"><img src="assets/img/mantibay5.jpeg" class="img-fluid" alt=""></a>
+            </div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/mantibay4.jpeg"><img src="assets/img/mantibay4.jpeg" class="img-fluid" alt=""></a>
+            </div>
+    
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/Gallery1.jpg"><img src="assets/img/Gallery1.jpg" class="img-fluid" alt=""></a>
+            </div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/Gallery2.jpg"><img src="assets/img/Gallery2.jpg" class="img-fluid" alt=""></a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- /Gallery Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <p><span class="description-title">اتصل بنا</span></p>
+      </div>
+    
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+    
+        <div class="mb-5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.438136146687!2d98.29250877476662!3d7.849128592172395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x305025880e9bdd31%3A0xc29b8c40ca0c107b!2sMANTI%20BAY!5e0!3m2!1sen!2sth!4v1742301458831!5m2!1sen!2sth"
+            width="750" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="d-block mx-auto"></iframe>
+        </div>
+        <!-- End Google Maps -->
+      </div>
+    
+    </section>
+    <!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="dark-background footer">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div class="address">
+            <h4>العنوان</h4>
+            <p class="fw-bold">516/21 طريق باتاك، كارون، منطقة موانغ فوكيت، فوكيت 83100</p>
+          </div>
+  
+        </div>
+  
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>الاتصال</h4>
+            <p class="fw-bold">
+              <strong>الهاتف:</strong> <span>+66 926862620</span><br>
+              <strong>البريد الإلكتروني:</strong> <span>baymanti8@gmail.com</span><br>
+            </p>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div class="fw-bold">
+            <h4>ساعات العمل</h4>
+            <p>
+              <strong>يومياً مفتوح من:</strong> <span>11:00AM - 23:00PM</span>
+            </p>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-6">
+          <h4>تابعنا</h4>
+          <div class="d-flex social-links">
+            <a href="https://www.facebook.com/profile.php?id=61569204932067" class="facebook"><i class="bi bi-facebook"
+                style="color: #a3a3a3;"></i></a>
+            <a href="https://www.instagram.com/manti.bay?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              class="instagram"><i class="bi bi-instagram" style="color: #a3a3a3;"></i></a>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="d-flex align-items-center justify-content-center scroll-top"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
